@@ -1,0 +1,86 @@
+name = Solum Foundation
+description = Installs a suite of modules commonly used for complex site builders and custom development.
+version = 1.0
+core = 7.x
+
+
+; The standard profile dependencies.
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+
+
+; Common modules for site builds.
+dependencies[] = advancedqueue
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = entity_view_mode
+dependencies[] = entityreference
+dependencies[] = feeds
+dependencies[] = feeds_tamper
+dependencies[] = file_entity
+dependencies[] = flag
+dependencies[] = jquery_update
+dependencies[] = libraries
+dependencies[] = media
+dependencies[] = media_wysiwyg
+dependencies[] = memcache
+dependencies[] = module_filter
+dependencies[] = page_manager
+dependencies[] = panels
+dependencies[] = pathauto
+dependencies[] = php
+dependencies[] = redirect
+dependencies[] = rest_service
+dependencies[] = rules
+dependencies[] = services
+dependencies[] = strongarm
+dependencies[] = taxonomy_manager
+dependencies[] = token
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_content
+dependencies[] = views_data_export
+dependencies[] = views_date_format_sql
+dependencies[] = views_megarow
+dependencies[] = views_php
+dependencies[] = wysiwyg
+
+
+; Good base themes.
+dependencies[] = bootstrap
+dependencies[] = zurb_foundation
+
+
+; Common developer tool modules.
+dependencies[] = admin_devel
+dependencies[] = admin_menu_toolbar
+dependencies[] = admin_menu
+dependencies[] = advanced_help
+dependencies[] = devel
+dependencies[] = features
+dependencies[] = rules_admin
+dependencies[] = views_ui
+dependencies[] = feeds_ui
+
+; 
