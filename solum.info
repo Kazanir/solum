@@ -39,7 +39,7 @@ dependencies[] = entityreference
 dependencies[] = feeds
 dependencies[] = feeds_tamper
 dependencies[] = file_entity
-dependencies[] = flag
+; dependencies[] = flag // Flag doesn't install properly as part of a profile.
 dependencies[] = jquery_update
 dependencies[] = libraries
 dependencies[] = media
@@ -51,7 +51,7 @@ dependencies[] = panels
 dependencies[] = pathauto
 dependencies[] = php
 dependencies[] = redirect
-dependencies[] = rest_service
+dependencies[] = rest_server
 dependencies[] = rules
 dependencies[] = services
 dependencies[] = strongarm
@@ -65,11 +65,6 @@ dependencies[] = views_date_format_sql
 dependencies[] = views_megarow
 dependencies[] = views_php
 dependencies[] = wysiwyg
-
-
-; Good base themes.
-dependencies[] = bootstrap
-dependencies[] = zurb_foundation
 
 
 ; Common developer tool modules.
