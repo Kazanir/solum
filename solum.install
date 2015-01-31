@@ -8,7 +8,7 @@
  * Bootstrap to be the site theme.
  */
 function solum_install() {
-  theme_enable(array('zurb_foundation', 'bootstrap', 'adminimal_theme'));
+  theme_enable(array('zurb_foundation', 'bootstrap', 'adminimal'));
   // Enable some standard blocks.
   $default_theme = 'bootstrap';
   $values = array(
@@ -69,8 +69,8 @@ function solum_install() {
   }
   $query->execute();
 
-  variable_set('default_theme', 'bootstrap');
-  variable_set('administration_theme', 'adminimal_theme');
+  variable_set('theme_default', 'bootstrap');
+  variable_set('administration_theme', 'adminimal');
 
   // Allow visitor account creation, but with administrative approval.
   variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
