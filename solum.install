@@ -70,7 +70,7 @@ function solum_install() {
   $query->execute();
 
   variable_set('theme_default', 'bootstrap');
-  variable_set('administration_theme', 'adminimal');
+  variable_set('admin_theme', 'adminimal');
 
   // Allow visitor account creation, but with administrative approval.
   variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
