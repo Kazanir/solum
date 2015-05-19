@@ -37,6 +37,20 @@ projects[views_megarow][version] = "1.x"
 projects[views_php][version] = "1.x"
 projects[wysiwyg][version] = "2.x"
 
+; Commerce modules
+projects[commerce][version] = "1.x"
+projects[commerce_addressbook][version] = "2.x"
+projects[commerce_extra_price_formatters][version] = "1.x"
+projects[commerce_fancy_attributes][version] = "1.x"
+projects[commerce_shipping][version] = "2.x"
+projects[commerce_flat_rate][version] = "1.x"
+projects[commerce_migrate][version] = "1.x"
+projects[commerce_discount][version] = "1.x"
+projects[commerce_checkout_progress][version] = "1.x"
+projects[commerce_checkout_redirect][version] = "2.x"
+projects[commerce_stripe][version] = "1.x"
+projects[commerce_message][version] = "1.x"
+
 ; Base themes
 projects[adminimal_theme][version] = "1.x"
 projects[bootstrap][version] = "3.x"
